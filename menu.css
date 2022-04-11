@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Wet Paint', cursive;
+    
+}
+body{
+  background-image: url("fon12.png");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+
+  
+}
+h1{
+    color: maroon;
+    font-size: 100px;
+
+}
+header{
+    text-align: center;
+    padding: 5px 15px;
+    border: 15px outset rgb(193, 193, 196);
+    margin: 10px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: rgb(124, 27, 27);
+    margin: 10px;
+  }
+  .menu a {
+    float:right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 19, 5);
+  }
+  
+  .menu a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+ a:active {
+    color: rgb(0, 0, 0);
+  }
+  img{
+    display:  block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 10px solid rgba(47, 83, 245, 0.205);
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+  }
+
+h2{
+    color: darkred;
+    font-size: 32px;
+    font-family: 'Shojumaru', cursive;
+    border: 10px inset rgba(248, 31, 31, 0.753);
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    text-decoration-line: underline;
+}
+p{
+    margin: 10px;
+    padding: 10px;
+    color: rgb(239, 234, 241);
+    font-size: 20px ;
+    text-align: justify;
+}
+h3{
+  
+  color: darkred;
+  font-size: 30px;
+  font-family: 'Shojumaru', cursive;
+  border: 10px inset rgba(248, 31, 31, 0.753);
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  text-decoration-line: underline;
+  
+}
+
+ol{
+    background: none;
+    color: rgb(235, 223, 231);
+    font-size: 24px;
+    padding: 5px;
+    margin: 35px;
+    }
+
+iframe{
+  
+  overflow: hidden;
+  padding-top: 56.25%; 
+  display:  block;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 20px;
+  padding: 10px;
+ 
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+   
+  }
+  .container div {
+    background: #f0e6e6;
+    padding: 2em;
+    
+  }
+  .container div:hover {
+    border: 2px solid rgb(56, 8, 8);
+  }
+  @media screen and (max-width: 850px) {
+    h1{
+      font-size: 60px;
+    }
+  }
+  @media screen and (max-width: 780px) {
+   
+    body {
+      background-image: url("fon12.png");
+      background-color: #000000;
+      image-rendering: auto;
+      background-size: auto;
+      -moz-background-size:auto;
+      -webkit-background-size: auto;
+      -o-background-size: auto;
+    }
+    h1{
+      font-size: 50px;
+    }
+    iframe{
+  
+      overflow: hidden;
+      padding-top: 56.25%; 
+      display:  block;
+      margin-left: auto;
+      margin-right:auto;
+      border-radius: 20px;
+      padding: 10px;
+      width: 100%;
+
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right:auto;
+      border: 2px solid rgba(231, 24, 24, 0.562);
+      border-radius: 12px;
+      padding: 10px;
+      width: 90%;
+      margin:10px;
+    }
+    p {
+        font-size: 24px;
+      
+      }
+      h2 {
+        font-size: 25px;
+        font-family: 'Rubik Wet Paint', cursive;
+        border: 10px inset rgb(161, 49, 15);
+        color: darkred;
+        
+        padding: 10px 10px 10px 20px;
+        margin: 10px;
+      }
+    
+      .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(50px auto);
+        padding: 10px;
+        margin:10px;
+      }
+      .container div {
+        background: #6430a7;
+        padding: 1em;
+      }
+      .container div:hover {
+        border: 2px solid rgb(42, 16, 90);
+      }
+  
+      .menu a {
+        float: none;
+        width: 100%;
+        margin: 2px;
+        padding: 6px 16px;
+        font-size: 20px;
+      }
+
+  }

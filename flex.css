@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    background-color: rgb(209, 69, 13);
+    grid-template-columns: repeat(3, 1fr);
+}
+ .flex-container > div {
+    background-color: #360101;
+    margin: 5px;
+    padding: 5px;
+    border-image-width: auto;
+    text-align: center;
+
+  }
+@media screen and (max-width: 780px) {
+    .flex-container {
+        display: flex;
+        background-color: rgb(209, 69, 13);
+        flex-direction: column;
+    }    
+    .flex-container > div {
+        background-color: #360101;
+        margin: 5px;
+        padding: 5px;
+        border-image-width: auto;
+ 
+    }
+}
